@@ -1,3 +1,6 @@
+function convertFahrToCelsius(F){
+   let cTemp = [];
+}
 var F = window.prompt("Enter your number: "); 
 
   if(isNaN(F)){
