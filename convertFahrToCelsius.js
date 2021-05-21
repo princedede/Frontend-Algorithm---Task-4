@@ -4,7 +4,7 @@ function convertFahrToCelsius(F){
 var F = window.prompt("Enter your number: "); 
 
   if(isNaN(F)){
-  console.log(F + "`${parameter} is not a valid number but a/an ${parameter's type}.`");
+  console.log(`${F} is not a valid number but a/an ${F}.`);
   }
   
   else {
