@@ -1,5 +1,5 @@
 function convertFahrToCelsius(F){
-   let cTemp = [];
+   let cTemperature = [];
 }
 var F = window.prompt("Enter your number: "); 
 
@@ -8,7 +8,6 @@ var F = window.prompt("Enter your number: ");
   }
   
   else {
-  cTemp = (F - 32) * 5/9;
-  //console.log(cTemp);
-  console.log(cTemp.toFixed(4));
+  cTemperature = (F - 32) * 5/9;
+  console.log(cTemperature.toFixed(4));
 }
